@@ -27,6 +27,8 @@ body{
     width:84%;
     font-size: 13px;
     font-weight: lighter;
+    padding-top: 50px;
+    padding-bottom: 120px;
 }
 
 .header_navbar_menu{
