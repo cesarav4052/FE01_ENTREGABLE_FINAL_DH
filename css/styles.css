@@ -28,6 +28,8 @@ body{
     width:84%;
     font-size: 13px;
     font-weight: lighter;
+    padding-top: 50px;
+    padding-bottom: 120px;
 }
 
 .header_navbar_menu{
@@ -296,4 +298,74 @@ ul li a{
     font-size: 16px;
     font-weight: bold;
     color: #FFFFFF;
+}
+
+.miembros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: #FFFFFF;
+}
+
+.miembros_titulo{
+    font-weight: bold;
+    font-size: 39.21px;
+    color: #242E53;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.miembros_lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.miembros_div1, .miembros_div3{
+    width: 5%;
+}
+
+.miembros_div2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 260px auto;
+    width: 90%;
+    background-color: #FAFAFA;
+}
+
+.miembro1, .miembro2, .miembro3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.miembro1_titulo h2, .miembro2_titulo h2, .miembro3_titulo h2{
+    font-weight: bold;
+    font-size: 16.07px;
+    color: #3F4868;
+}
+.miembro1_texto p, .miembro2_texto p, .miembro3_texto p{
+    font-weight: lighter;
+    font-size: 16px;
+    color: #B9B9C1;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.miembros_boton button{
+    background-color: #8B48BF;
+    border: none;
+    border-radius: 50px;
+    height: 44px;
+    width: 134px;
+    font-size: 13.18px;
+    font-weight: lighter;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+    text-align: center;
 }
