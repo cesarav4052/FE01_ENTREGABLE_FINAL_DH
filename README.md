@@ -4,7 +4,7 @@ Comentarios:
 1. Estructura correcta de HTML (Cesar Avendaño)
 2. Uso y correcta implementación de etiquetas semánticas (Isabela Montoya)
 3. Adaptabilidad a dos tipos de dispositivos (Cesar Avendaño)
-4. Correcta implementación del fomulario (Isabela Montoya)
+4. Correcta implementación del formulario (Isabela Montoya)
 5. Imagens, iconos, fuentes, background (Cesar Avendaño)
 6. Implementación de Flexbox (Isabela Montoya)
 7. Buenas Practicas en el CSS (Cesar Avendaño)
