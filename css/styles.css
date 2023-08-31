@@ -10,10 +10,9 @@ body{
 .header{
     display: flex;
     flex-direction: row;
-    /*justify-content: space-around;*/
     justify-content: center;
     align-items: center;
-    height: 174px auto;
+    height: 174px;
     width: 100vw;
 }
 
@@ -60,12 +59,17 @@ ul li a{
 }
 
 .banner1{
+    margin-top: 5rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     /*height: 461px;*/
     height: auto;
     padding-bottom: 80px;
+}
+
+.hombrecamisaamarilla{
+    width: 450px;
 }
 
 .banner1_col_1{
@@ -296,4 +300,122 @@ ul li a{
     font-size: 16px;
     font-weight: bold;
     color: #FFFFFF;
+}
+
+.mejoresdelmes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.mejoresdelmes p{
+    color: #242E53;
+    font-size: 39.21px;
+    font-weight: 700;
+}
+
+.cartas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card{
+    background-color: #FAFAFA;
+    width: 380px;
+    position: relative;
+}
+
+.foto{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -34px;
+}
+
+.texto h3{
+    margin-top: 5rem;
+    font-size: 16px;
+    text-align: center;
+    color: #3F4868;
+}
+
+.texto p{
+    text-align: center;
+    color: #B9B9C1;
+}
+
+.botonmore{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.boton-more{
+    background-color: #8B48BF;
+    border: none;
+    border-radius: 50px;
+    height: 44px;
+    width: 134px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #FFFFFF;
+}
+
+.espacio{
+    margin-bottom: 10rem;
+}
+
+.boton-goforit{
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    height: 44px;
+    width: 134px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #8B48BF;
+}
+
+.banner3{
+    background-color: #8B48BF;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 140px;
+    height: 220px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 247px;
+    background-color: #1E1E26;
+}
+
+.logoeiconos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.listas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.listas ul li a{
+    text-decoration: none;
+    color: white;
 }
