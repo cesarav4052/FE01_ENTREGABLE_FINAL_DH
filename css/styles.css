@@ -310,6 +310,7 @@ ul li a{
     justify-content: center;
     align-items: center;
     height: 200px;
+    margin-bottom: 2rem;
 }
 
 .mejoresdelmes p{
@@ -415,6 +416,11 @@ ul li a{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+}
+
+.listas ul {
+    list-style: none;
+    line-height: 30px;
 }
 
 .listas ul li a{
