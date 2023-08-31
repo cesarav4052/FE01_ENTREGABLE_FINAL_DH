@@ -357,6 +357,15 @@ ul li a{
     padding-right: 10px;
 }
 
+.miembros_boton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 120px;
+}
+
 .miembros_boton button{
     background-color: #8B48BF;
     border: none;
@@ -366,6 +375,44 @@ ul li a{
     font-size: 13.18px;
     font-weight: lighter;
     color: #FFFFFF;
-    padding-bottom: 40px;
     text-align: center;
+}
+
+.referencias{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 224px auto;
+    background-color: #8B48BF;
+}
+
+.referencias_div1, .referencias_div3{
+    width:12%;
+}
+
+.referencias_div2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 76%;
+}
+
+.referencias_div2 p:nth-child(1){
+    font-weight: bold;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.boton_referencia{
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+    height: 44px;
+    width: 134px;
+    font-size: 13.18px;
+    font-weight: lighter;
+    color: #8B48BF;
 }
