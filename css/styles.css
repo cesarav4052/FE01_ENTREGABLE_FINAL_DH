@@ -367,13 +367,38 @@ ul li a{
     justify-content: center;
 }
 
-.boton-more{
+.boton-more, .boton-go{
     background-color: #8B48BF;
     border: none;
     border-radius: 50px;
     height: 44px;
     width: 134px;
     font-size: 14px;
+    font-weight: lighter;
+    color: #FFFFFF;
+}
+
+.boton-go{
+    width: 63px;
+}
+
+#search-input::placeholder {
+    font-size: 13.18px; 
+    color: #888;
+    padding-left: 10px;
+}
+
+.busqueda{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.input{
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    height: 44px;
+    width: 201px;
     font-weight: lighter;
     color: #FFFFFF;
 }
@@ -411,31 +436,53 @@ ul li a{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
     height: 247px;
     background-color: #1E1E26;
+    padding: 0 80px;
 }
 
 .logoeiconos{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: space-around;
+}
+
+.iconos{
+    margin-left: 13px;
+}
+
+.logofooter{
+    width: 107.68px;
 }
 
 .listas{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: row; 
+    padding-top: 30px;
+}
+
+.lista1{
+    margin-right: 219px;
 }
 
 .listas ul {
     list-style: none;
-    line-height: 30px;
+    line-height: 35px;
 }
 
 .listas ul li a{
     text-decoration: none;
     color: white;
+}
+
+#Copyright{
+    color: #8C8C94;
+    font-size: 12.5px;
+    font-weight: 500;
+    padding-left: 50px;
+    padding-top: 80px;
 }
 
 .referencias{
