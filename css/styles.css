@@ -5,6 +5,7 @@
 body{
     font-family: 'Be Vietman', sans-serif;
     margin: 0px;
+    width: 100vw;
 }
 
 .header{
@@ -359,24 +360,15 @@ ul li a{
 
 .cartas{
     display: flex;
-    /*display: block;*/
-    /*clear: both;*/
-    /*flex-wrap: wrap;*/
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /*position: relative;*/
     width: 90%;
     height: auto;
-    /*box-sizing: border-box;*/
-    /*text-align: center;*/
 }
 
 .card{
-    /*display: block;*/
-    /*clear: both;*/
     background-color: #FAFAFA;
-    /*width: 380px;*/
     width: 445px auto;
     height: 254px auto;
     position: relative;
@@ -497,167 +489,84 @@ ul li a{
     color: #8B48BF;
 }
 
-.footer{
+/*boton seleccionado web*/
+.boton-more:hover , .boton_contacto:hover, .boton-go{
+    cursor: pointer; 
+    background-color: rgba(139, 72, 191, 0.7);
+}
+
+/*boton seleccionado web*/
+.boton-goforit:hover{
+    cursor: pointer; 
+    background-color: #f2f2f2;
+}
+
+/*footer web*/
+.footer {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 247px auto;
+    justify-content: space-around;
+    height: auto;
     background-color: #1E1E26;
-    width: 100%;
+    padding: 0 80px;
 }
 
-.footer_div1, .footer_div5{
-    width: 5%;
-}
-
-.footer_div6{
-    display: none;
-}
-
-.footer_div2{
+.logoeiconos {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
+    justify-content: space-around;
+    padding-left: 15px;
 }
 
-.footer_logo_1{
+.contenedoriconos {
     display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: center;
-    height: 50%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+
 }
 
-.footer_logo_1 img{
-    margin-left: -30px;
-    width: 107.68px;
-}
-
-.footer_redes_2{
+.iconos {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 50%;
-}
-
-.footer_redes_2 img{
     margin-left: 13px;
+    gap: 9px;
 }
 
-.footer_div3{
+.logofooter {
+    width: 107.68px;
+    height: auto;
+}
+
+.listas {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 20%;
-    position: relative;
-}
-
-.footer_enlace_3{
-    display: flex;
-    /*flex-wrap: wrap;*/
-    flex-direction: column; 
-    justify-content: left;
-    align-items: flex-start;
     padding-top: 30px;
-    padding-bottom: 30px;
 }
 
-.footer_enlace_3 .lista1{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: flex-start;
-    /*padding-top: 30px;
-    padding-bottom: 30px;*/
+.lista1 {
+    margin-right: 219px;
 }
 
-.footer_enlace_3 ul{
+.listas ul {
     list-style: none;
     line-height: 35px;
 }
 
-.footer_enlace_3 ul li a{
+.listas ul li a {
     text-decoration: none;
-    font-size: 16px;
-    font-weight: normal;
     color: white;
 }
 
-.footer_enlace_4{
-    display: flex;
-    /*flex-wrap: wrap;*/
-    flex-direction: column; 
-    justify-content: left;
-    align-items: flex-start;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.footer_enlace_4 .lista2{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: flex-start;
-    /*padding-top: 30px;
-    padding-bottom: 30px;*/
-}
-
-.footer_enlace_4 ul{
-    list-style: none;
-    line-height: 35px;
-}
-
-.footer_enlace_4 ul li a{
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: normal;
-    color: white;
-}
-
-.footer_div4{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
-}
-
-.footer_buscador_5{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer_buscador_5 form{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer_buscador_5 form input, .footer_buscador_5 form button{
-    margin-left: 10px;
-}
-
-.footer_copyright_6{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;    
-}
-
-.footer_copyright_6 p{
+#Copyright {
     color: #8C8C94;
     font-size: 12.5px;
-    font-weight: normal;
-    /*padding-left: 50px;
-    padding-top: 80px;*/
+    font-weight: 500;
+    padding-left: 50px;
+    padding-top: 80px;
 }
 
 .referencias{
@@ -1012,56 +921,73 @@ ul li a{
         color: #FFFFFF;
     }
 
-    .footer{
+    /*footer movil*/
+    .footer {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-        height: 534.71px auto;
+        height: 534.71px;
         background-color: #1E1E26;
-        width: 100%;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding: 0 50px;
     }
 
-    .footer_div2, .footer_div4 .footer_copyright_6{
-        display: none;
+    .listas {
+        padding-top: 0;
     }
 
-    .footer_div2{
-        display: flex;
+    .lista1 {
+        margin-right: 110px;
+        padding-left: 35px;
+    }
+
+    .busqueda {
+        padding-left: 0px;
+    }
+
+    .input {
+        width: 308px;
+    }
+
+    #Copyright {
+        position: absolute;
+        padding-top: 0;
+        padding-left: 0;
+        margin: 0;
+        position: relative;
+        top: 400px;
+        text-align: center;
+    }
+
+    .logoeiconos {
         flex-direction: column-reverse;
-    }
-
-    .footer_enlace_3{
-        margin-left: -100px;
-    }
-
-    .footer_enlace_4{
-        margin-left: 100px;
-    }
-
-    .footer_div2 .footer_redes_2 img{
-        margin-left: 60px;
-    }
-
-    .footer_div2 .footer_logo_1{
-        margin-top: 50px;
-        margin-left: 60px;
-    }
-
-    .footer_div6{
-        display: flex;
-        flex-direction: row;
         justify-content: center;
         align-items: center;
-        color: #8C8C94;
-        font-size: 12.5px;
-        font-weight: normal;
-        padding-top: 50px;
-        padding-bottom: 20px;
-        margin-left: 40px;
+        position: relative;
+        top: 100px;
     }
 
+    .iconos {
+        margin-left: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 69px;
+        position: relative;
+        top: -80px;
+    }
+    .contenedoriconos {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 200px;
+        position: relative;
+        top: -40px;
+    }
+
+    .card{
+        /* margin: 20px; */
+        margin-top: 50px;
+    }
 
 }
