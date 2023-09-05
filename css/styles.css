@@ -5,7 +5,9 @@
 body{
     font-family: 'Be Vietman', sans-serif;
     margin: 0px;
-    width: 100vw;
+    /*width: 100vw;*/
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .header{
@@ -62,7 +64,9 @@ ul li a{
 
 a:hover{
     cursor: pointer; 
-    color: rgba(139, 72, 191, 0.7);
+    /*color: rgba(139, 72, 191, 0.7);*/
+    color: #242E52;
+    opacity: 60%;
 }
 
 .boton_contacto{
@@ -88,8 +92,8 @@ a:hover{
 
 
 .hombrecamisaamarilla{
-    /*width: 450px auto;*/
-    width: 100%;
+    width: 450px auto;
+    /*width: 100%;*/
 }
 
 .banner1_col_1{
@@ -624,6 +628,7 @@ a:hover{
 }
 
 @media(max-width:480px){
+
     .header{
         display: flex;
         flex-direction: row;
